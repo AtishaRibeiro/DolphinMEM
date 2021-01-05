@@ -29,3 +29,5 @@ The functions that can be called are all located in `API.h`, some of these are e
 A C# interface is included that communicates with the dll. Not all functions are implemented here but adding functions shouldn't be too hard. Just look at `API.h` and copy (with C# types) the signature of the function you want to include.
 
 A small test program is included to verify that the library is working properly. When run it will try to hook to a running Dolphin instance and print out the game version in console if it succeeds.
+
+A few helper functions are also included under the `Util` class. These can help with converting byte addresses to integers and other pointer stuff.
