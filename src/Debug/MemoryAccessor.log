@@ -1,0 +1,4 @@
+﻿  API.cpp
+C:\Users\atish\source\repos\MemoryAccessor\MemoryAccessor\API.h(28,144): warning C4190: 'getFormattedValueFromCache' has C-linkage specified, but returns UDT 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' which is incompatible with C
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(4575): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  MemoryAccessor.vcxproj -> C:\Users\atish\source\repos\MemoryAccessor\Debug\MemoryAccessor.dll
